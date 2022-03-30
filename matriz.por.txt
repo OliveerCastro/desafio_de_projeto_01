@@ -1,0 +1,27 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro matriz[5][5]
+		inteiro lin, col
+		
+		para(lin = 0; lin < 5; lin++){
+			
+			para(col = 0; col < 5; col++){
+				
+				matriz[lin][col] = lin + col
+				escreva("linha: ", lin, " + coluna: ", col, " = ", matriz[lin][col], " | ")
+			}
+			escreva("\n")
+		}
+		
+		para(lin = 0; lin < 5; lin++){
+			
+			para(col = 0; col < 5; col++){
+				
+				escreva(matriz[lin][col], " - ")
+			}	
+			escreva("\n")
+		}
+	}
+}
