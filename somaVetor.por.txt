@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro numeros[5]
+		inteiro i, soma = 0
+		
+		para(i = 0; i < 5; i++){
+			
+			escreva("Informe o número para o indice [", i, "]: ")
+			leia(numeros[i])
+			limpa()
+		}
+		
+		limpa()
+		
+		para(i = 0; i < 5; i++){
+			
+			soma += numeros[i]
+			
+			escreva("O número do indice [", i, "] é ", numeros[i], "\n")
+			
+	
+		}
+		
+		escreva("\nA soma dos valores do vetor é: ", soma)
+	}
+}
